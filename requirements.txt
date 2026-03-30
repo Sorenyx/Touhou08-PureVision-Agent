@@ -1,0 +1,30 @@
+# 东方永夜抄强化学习项目依赖
+
+# 核心ML/Vision
+ultralytics>=8.0.0
+opencv-python>=4.0.0
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 强化学习
+stable-baselines3>=2.0.0
+gymnasium>=1.0.0
+tensorboard>=2.14.0
+
+# 键盘控制
+pydirectinput>=1.0.0
+pynput>=1.7.0
+
+# 游戏进程管理
+psutil>=5.9.0
+
+# 窗口操作
+pywin32>=305
+pyautogui>=0.9.0
+
+# 可视化
+matplotlib>=3.5.0
+
+# 其他
+tqdm>=4.65.0
