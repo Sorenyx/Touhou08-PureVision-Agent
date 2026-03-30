@@ -1,0 +1,2 @@
+# Touhou08-PureVision-Agent
+基于纯视觉Yolo模型，PPO，人工势场算法与Voronoi图的东方Project08作避弹强化学习项目
