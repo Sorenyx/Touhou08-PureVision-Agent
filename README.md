@@ -24,8 +24,11 @@
   - 大弹(bullet_heavy): 判定半径24px
 - **敌怪(Enemy)**: BOSS和杂兵位置
 - **游戏状态**: 标题、对话、游戏中、死亡、结算等
-- <img width="1072" height="734" alt="demo1" src="https://github.com/user-attachments/assets/66786363-6f17-4867-843b-2fbf5a43e39a" /><img width="1075" height="734" alt="demo2" src="https://github.com/user-attachments/assets/6eb98bd8-2d28-45f2-b8c9-9c60a56dd2c4" />
-<img width="1071" height="736" alt="demo3" src="https://github.com/user-attachments/assets/5d2a0b00-8539-414d-bb75-39ca5c451a4e" /><img width="1070" height="727" alt="demo4" src="https://github.com/user-attachments/assets/2236c711-fb3f-4600-a473-5edf5c2591b7" />
+<img width="321" height="220" alt="demo1(1)" src="https://github.com/user-attachments/assets/142c234c-1eae-4f48-b3df-4c3522fbe618" />
+<img width="150" height="103" alt="demo2" src="https://github.com/user-attachments/assets/92fb58fc-c9a6-4205-8d87-5497172daf92" />
+<img width="149" height="103" alt="demo3" src="https://github.com/user-attachments/assets/4dd275c3-bbfe-4894-93f5-6bff4a24b6bd" />
+<img width="149" height="102" alt="demo4" src="https://github.com/user-attachments/assets/19b409cd-bb26-4c67-af31-b0997530c127" />
+
 
 
 
