@@ -2,13 +2,16 @@
 
 基于强化学习(PPO)和计算机视觉(YOLOv8)的东方永夜抄自动通关AI。
 
-## 项目原理
+## 前言
 
-### 核心架构
+本项目采用纯视觉来处理弹幕关系与游戏导航构建，核心为YoloV8模型+PPO强化学习+路径规划，项目目前只跑了10万步左右，可以实现简单弹幕的自动躲避，但由于作者学业及硬件能力无法跑至500万至1000万步验证最终效果，敬请见谅。
+训练Yolo模型时可以使用x-anylabeling开源工具，将训练后的模型再次运用于标注中形成闭环训练，可以极大减轻标注海量弹幕数据集工作。
+训练强化学习模型时请将自己训练的onnx文件或pt文件放置与同文件夹下，开始训练时可先注释掉Voronoi图寻找最优空旷点引导奖励函数，使模型专注于势场避弹训练，后期可加回来提高模型规划路径及限制行动空间。
+游戏资源需自行添加在文件夹下，使用train_v2开始训练，项目可使用TensorBoard展现训练成果
+作者目前大二，后续应该不会更新了，如果为你的项目起到了帮助将不胜荣幸，谢谢。
 
-```
-游戏画面 → YOLOv8检测 → 强化学习(PPO) → 键盘控制
-```
+### 项目原理
+
 
 ### 1. 视觉感知 (YOLOv8)
 
@@ -21,6 +24,11 @@
   - 大弹(bullet_heavy): 判定半径24px
 - **敌怪(Enemy)**: BOSS和杂兵位置
 - **游戏状态**: 标题、对话、游戏中、死亡、结算等
+- <img width="1072" height="734" alt="demo1" src="https://github.com/user-attachments/assets/66786363-6f17-4867-843b-2fbf5a43e39a" /><img width="1075" height="734" alt="demo2" src="https://github.com/user-attachments/assets/6eb98bd8-2d28-45f2-b8c9-9c60a56dd2c4" />
+<img width="1071" height="736" alt="demo3" src="https://github.com/user-attachments/assets/5d2a0b00-8539-414d-bb75-39ca5c451a4e" /><img width="1070" height="727" alt="demo4" src="https://github.com/user-attachments/assets/2236c711-fb3f-4600-a473-5edf5c2591b7" />
+
+
+
 
 ### 2. 弹幕预判
 
